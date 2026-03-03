@@ -1,0 +1,14 @@
+{
+  "name": "attendance-bot",
+  "version": "1.0.0",
+  "description": "Attendance System",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "mongoose": "^7.6.0",
+    "dotenv": "^16.3.1"
+  }
+}
