@@ -337,5 +337,10 @@ client.on("interactionCreate", async interaction => {
 
 });
 
-console.log("TOKEN:", process.env.TOKEN ?
-            "EXISTS" : "MISSING");
+client.login(process.env.TOKEN)
+  .then(() => console.log("Discord Login Attempted"))
+  .catch(err => console.error("LOGIN ERROR:", err));
+
+client.on("error", console.error);
+client.on("shardError", console.error);
+process.on("unhandledRejection", console.error);
