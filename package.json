@@ -1,15 +1,16 @@
 {
   "name": "attendance-bot",
-  "version": "3.0.0",
-  "description": "Ultimate Attendance System",
+  "version": "1.0.0",
+  "description": "Full Attendance System",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "discord.js": "^14.14.1",
     "mongoose": "^7.6.0",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1"
   }
 }
